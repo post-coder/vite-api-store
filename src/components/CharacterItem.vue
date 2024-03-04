@@ -25,7 +25,7 @@ export default {
 
     width: calc(100% / 3 - $characterListGap / 3 * 2);
 
-    text-align: centerAA;
+    text-align: center;
 }
 
 
