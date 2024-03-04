@@ -18,10 +18,21 @@ export default {
 <template>
 
 <nav>
-    Elementi in pagina: {{ store.characters.length }}
+    <div class="container">
+        Elementi in pagina: {{ store.characters.length }}
+    </div>
 </nav>
 
 </template>
 
-<style>
+<style lang="scss">
+
+nav {
+    margin-bottom: 2em;
+
+    padding: 24px 0;
+
+    border-bottom: solid 1px white;
+}
+
 </style>

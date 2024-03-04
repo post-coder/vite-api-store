@@ -24,7 +24,7 @@ export default {
     // spazio di codice che viene eseguito appena l'applicazione viene lanciata
     
     axios
-      .get('https://rickandmortyapi.com/api/character?page=10')
+      .get('https://rickandmortyapi.com/api/character?page=1')
       .then(res => {
         console.log(res.data.results)
         this.store.characters = res.data.results
@@ -45,7 +45,8 @@ export default {
 </script>
 
 <template>
-  <CharactersList></CharactersList>
+    <CharactersList></CharactersList>
+
 </template>
 
 <style lang="scss">
