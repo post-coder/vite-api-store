@@ -11,7 +11,8 @@ export default {
 <template>
     <li class="character">
         <img :src="character.image" :alt="character.name">
-        {{ character.name }}
+        {{ character.name }} <br>
+        <small>({{ character.species }})</small>
     </li>
 </template>
 
